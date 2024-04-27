@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+        font-family: "Yellowtail", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+      
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.img-section{
+    width: 40%;
+    height: 100vh;
+    background-image: url(./young-woman-laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.form-section{
+    width: 60%;
+    height: 100vh;
+    padding: 40px;
+    background-color: rgba(165, 214, 236, 0.904);
+}
+
+.img-section img{
+    width: 100px;
+}
+.img-section h5{
+    color: rgb(5, 39, 87);
+    font-size: 22px;
+}
+
+.side{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.heading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 40px;
+}
+
+.heading h2{
+    font-size: 44px;
+    color: rgb(5, 51, 114);
+}
+.icon{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: skyblue;
+    padding-block: 30px;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(5, 55, 104);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(6, 76, 142);
+}
+.or-section hr{
+    width: 150px;
+}
+.input-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 30px;
+}
+
+.input-section input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid rgb(4, 93, 138);
+    border-radius: 30px;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.input-section button{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(4, 76, 120);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
+a{
+    color: blue;
+}
